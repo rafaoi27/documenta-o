@@ -185,3 +185,12 @@ Renderizar o conteúdo dentro dos limites da área segura de um dispositivo.
 
 [Vídeo](https://www.youtube.com/watch?v=VF9FDPbUFrw) usando esse componente 
 
+####  TouchableOpacity
+Um invólucro para fazer visualizações responde adequadamente a toques
+
+			<TouchableOpacity
+			 style={styles.button}
+			  onPress={onPress}
+			   <Text Press Here</Text
+			    </TouchableOpacity
+	

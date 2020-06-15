@@ -105,3 +105,15 @@ accessibilityLabel="Learn more about this purple button"
 
 
 [Vídeo](https://www.youtube.com/watch?v=mywZdxvz2aU) usando esse componente
+
+#### SafeAreaView
+
+Renderizar o conteúdo dentro dos limites da área segura de um dispositivo.
+
+<SafeAreaView style={styles.container}
+
+ <TextPage content</Text
+ 
+ </SafeAreaView
+
+[Vídeo](https://www.youtube.com/watch?v=VF9FDPbUFrw) usando esse componente 

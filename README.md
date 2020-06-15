@@ -35,6 +35,7 @@ Um StyleSheet é uma abstração semelhante ao CSS StyleSheets.
 # Meus Projetos
 
 Projetos feito na material de Desenvolvimento de Sistemas para Dispositivos Móveis
+
 ## Aplicativo Senai (https://github.com/rafaoi27/senai-mobile)
 ### TouchableHighlight
  Um invólucro para fazer visualizações
@@ -200,7 +201,7 @@ onPress={onPress}
  
  [Vídeo](https://www.youtube.com/watch?v=otDl8PGYT4s) usando esse componente.
  
-## 
+## Aplicativo DevFlix (https://github.com/rafaoi27/senaiflix)
 	
 #### View
 O componente mais fundamental para a criação de uma interface do usuário.
@@ -282,4 +283,84 @@ onPress={onPress}
 
 [Vídeo](https://www.youtube.com/watch?v=otDl8PGYT4s) usando esse componente.
 
+## Aplicativo Covid-19 (https://github.com/rafaoi27/appCorona)
 
+#### View
+O componente mais fundamental para a criação de uma interface do usuário.
+
+<View
+style={{
+      
+flexDirection: "row",
+        
+height: 100,
+        
+padding: 20
+        
+   }}
+     
+ >
+    
+   [Vídeo](https://www.youtube.com/watch?v=Q7gT462aBU0) usando esse componente.
+### StyleSheet
+
+Um StyleSheet é uma abstração semelhante ao CSS StyleSheets.
+
+
+const styles = StyleSheet.create({
+
+container: {
+  
+flex: 1,const styles = St
+    
+padding: 24,
+    
+backgroundColor: "#eaeaea"
+    
+},
+  
+[Vídeo](https://www.youtube.com/watch?v=R3S8DEzEn6s) usando esse componente.
+
+#### Button
+
+Um componente básico de botão.
+
+<Button 
+
+onPress={onPressLearnMore}  
+
+title="Learn More"  color="#841584"  
+
+accessibilityLabel="Learn more about this purple button"
+
+</Button
+
+
+[Vídeo](https://www.youtube.com/watch?v=mywZdxvz2aU) usando esse componente
+
+#### SafeAreaView
+
+Renderizar o conteúdo dentro dos limites da área segura de um dispositivo.
+
+<SafeAreaView style={styles.container}
+
+ <TextPage content</Text
+ 
+ </SafeAreaView
+
+[Vídeo](https://www.youtube.com/watch?v=VF9FDPbUFrw) usando esse componente 
+
+####  TouchableOpacity
+Um invólucro para fazer visualizações responde adequadamente a toque
+
+<TouchableOpacity
+
+style={styles.button}
+
+onPress={onPress}
+
+<Text Press Here</Text
+
+</TouchableOpacity	
+
+[Vídeo](https://www.youtube.com/watch?v=otDl8PGYT4s) usando esse componente.

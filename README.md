@@ -40,38 +40,68 @@ Projetos feito na material de Desenvolvimento de Sistemas para Dispositivos Móv
  Um invólucro para fazer visualizações
 
 <TouchableHighlight
+
 activeOpacity={0.6} 
+
 underlayColor="#DDDDDD" 
+
 onPress={() => alert('Pressed!')}> 
+
 <MyComponent/
+
 </TouchableHighlight
+
 [Vídeo](https://www.youtube.com/watch?v=d-3JeS9lNHI) usando esse componente 
+
 #### View
 O componente mais fundamental para a criação de uma interface do usuário.
 
 <View
-      style={{
-        flexDirection: "row",
-        height: 100,
-        padding: 20
-      }}
-    >
-    [Vídeo](https://www.youtube.com/watch?v=Q7gT462aBU0) usando esse componente.
+style={{
+      
+flexDirection: "row",
+        
+height: 100,
+        
+padding: 20
+        
+        }}
+     
+ >
+    
+   [Vídeo](https://www.youtube.com/watch?v=Q7gT462aBU0) usando esse componente.
 ### StyleSheet
+
 Um StyleSheet é uma abstração semelhante ao CSS StyleSheets.
 
+
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,const styles = St
-    padding: 24,
-    backgroundColor: "#eaeaea"
-  },
+
+container: {
+  
+flex: 1,const styles = St
+    
+padding: 24,
+    
+backgroundColor: "#eaeaea"
+    
+},
+  
 [Vídeo](https://www.youtube.com/watch?v=R3S8DEzEn6s) usando esse componente.
+
 #### Button
+
 Um componente básico de botão.
+
 <Button 
+
 onPress={onPressLearnMore}  
+
 title="Learn More"  color="#841584"  
+
 accessibilityLabel="Learn more about this purple button"
+
 </Button
+
+
 [Vídeo](https://www.youtube.com/watch?v=mywZdxvz2aU) usando esse componente
